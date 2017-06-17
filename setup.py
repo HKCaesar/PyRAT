@@ -23,5 +23,5 @@ setup(name='PyRAT',
       packages=['pyrat', 'pyrat.save', 'pyrat.filter', 'pyrat.load', 'pyrat.filter', 'pyrat.viewer',
                 'pyrat.layer', 'pyrat.insar', 'pyrat.transform', 'pyrat.polar', 'pyrat.plugins'],
       scripts=['pyrat.run'],
-      data_files=[('.', ['README.txt', 'requirements.txt', 'MANIFEST.in'])]
+      data_files=[('.', ['README.md', 'requirements.txt', 'MANIFEST.in'])]
       )

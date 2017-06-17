@@ -519,8 +519,8 @@ class MainWindow(QtWidgets.QMainWindow):
         vscale = (self.box[3] - self.box[2]) / self.frame.rect().height()
         scale = max(hscale, vscale)
 
-        dpx = (self.imageLabel.width()-self.width)//2
-        dpy = (self.imageLabel.height()-self.height)//2
+        dpx = (self.imageLabel.width()-self.width)/2
+        dpy = (self.imageLabel.height()-self.height)/2
 
         posx = self.box[0] + int((x-dpx) * scale)
         posy = self.box[2] + int((y-dpy) * scale)

@@ -12,3 +12,4 @@ lxml
 scikit-image
 readline
 mako
+#libjpeg-turbo

@@ -96,7 +96,7 @@ pool = False
 _debug = False
 
 
-def pyrat_init(tmpdir=None, debug=False, nthreads=min(multiprocessing.cpu_count(), 8)):
+def pyrat_init(tmpdir=None, debug=False, nthreads=min(multiprocessing.cpu_count(), 16)):
     global data, pool
 
     global _debug
